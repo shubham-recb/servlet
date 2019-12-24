@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			document.write("creating cookie"+"<br>");
+			document.cookie="username=Sonu; expires=Friday, 26 may 2018 09:00:00 GMT; path=/";
+			document.cookie="id=105; expires=Friday, 26 may 2018 09:00:00 GMT; path=/";
+			var cookie=document.cookie;
+			document.write(cookie);
+			document.write("cookie are created"+"<br>");
+			document.write("reading cookie  "+"<br>");
+			var mycookie=document.cookie;
+			document.write(mycookie);
+			document.write("cookie are read"+"<br>");
+			document.write("changing cookie  "+"<br>");
+			document.cookie="username=monu; expires=Friday, 26 may 2018 09:00:00 GMT; path=/";
+			document.cookie="id=107; expires=Friday, 26 may 2018 09:00:00 GMT; path=/";
+			var mycookie=document.cookie;
+			document.write(mycookie);
+			document.write("cookie are changing"+"<br>");
+			document.write("deleting cookie  "+"<br>");
+			document.cookie="username=; expires=Friday, 26 may 2018 09:00:00 GMT; path=/";
+			document.cookie="id=; expires=Friday, 26 may 2018 09:00:00 GMT; path=/";
+			var mycookie=document.cookie;
+			document.write(mycookie);
+			document.write("cookie are deleting");
+		</script>
+	</head>
+</html>

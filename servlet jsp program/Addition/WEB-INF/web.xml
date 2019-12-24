@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>shubham</servlet-name>
+		<servlet-class>Addition</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>shubham</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+</web-app>
